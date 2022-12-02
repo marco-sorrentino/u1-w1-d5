@@ -169,3 +169,7 @@ a {
   color: white;
   font-family: "Open Sans", sans-serif;
 }
+
+#arrow {
+  text-decoration: none;
+}
