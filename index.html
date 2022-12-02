@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/font-awesome.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -93,7 +94,7 @@
 
     <!--CARDS 1-->
     <div class="cards">
-      <img src="./images/foto1.jpg" alt="PC" />
+      <img class="imgcards" src="./images/foto1.jpg" alt="PC" />
       <p class="titlecards">Il tuo PC</p>
       <p class="subtitlecards">
         Se vuoi diventare developer è l'unico strumento di cui hai bisogno.
@@ -102,7 +103,7 @@
 
     <!--CARDS 2-->
     <div class="cards">
-      <img src="./images/foto2.jpg" alt="PC" />
+      <img class="imgcards" src="./images/foto2.jpg" alt="PC" />
       <p class="titlecards">Impara ora</p>
       <p class="subtitlecards">
         Impara da chi diventerai tra qualche anno, e diventa una rockstar come
@@ -111,8 +112,8 @@
     </div>
 
     <!--CARDS 3-->
-    <div class="cards">
-      <img src="./images/foto3.jpg" alt="PC" />
+    <div class="cards" class="cards">
+      <img class="imgcards" src="./images/foto3.jpg" alt="PC" />
       <p class="titlecards">Lavora subito</p>
       <p class="subtitlecards">
         Sappiamo cosa vogliono le aziende, perchè lavoriamo con loro.
@@ -121,12 +122,22 @@
 
     <!--FOOTER-->
     <footer>
-      <p>Contattaci</p>
-      <a href="tel:(+39) 11223456">(+39) 11223456</a> <br />
-      <a href="mailto:info@epicode.school">info@epicode.school</a>
+      <p id="contattaci">Contattaci</p>
+
+      <i class="fas fa-phone-square-alt"
+        ><a href="tel:(+39) 11223456">(+39) 11223456</a>
+      </i>
+      <br />
+      <i class="fas fa-envelope"
+        ><a href="mailto:info@epicode.school">info@epicode.school</a></i
+      >
+
       <address>Via Appia 1 - 00100 Roma (RM)</address>
-      <hr />
-      &#169;2021. Immagini di <a href="https://pixabay.com/it/">pixabay</a>
+      <div class="copyright">
+        <p id="lastp">
+          &#169;2021. Immagini di <a href="https://pixabay.com/it/">pixabay</a>
+        </p>
+      </div>
     </footer>
   </body>
 </html>

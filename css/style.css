@@ -106,3 +106,62 @@ button {
   margin-top: 10px;
   font-size: 0.7rem;
 }
+
+/*CARDS*/
+
+.cards {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  border: 1px solid rgba(179, 179, 179, 0.295);
+  border-radius: 5px;
+}
+
+.imgcards {
+  width: 100%;
+}
+
+.titlecards {
+  color: #2fb6db;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px 0px;
+}
+
+.subtitlecards {
+  margin-bottom: 30px;
+  line-height: 1.65;
+}
+
+/*FOOTER*/
+
+footer {
+  background: linear-gradient(180deg, #67bedb 0%, #25a5cb 100%);
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  padding: 40px 20px;
+  line-height: 1.65;
+  font-size: 0.8rem;
+}
+
+.copyright {
+  border-top: 1px solid white;
+  margin-top: 30px;
+  width: 160px;
+  margin: 20px auto;
+}
+
+#contattaci {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+}
+
+#lastp {
+  margin-top: 30px;
+}
+
+a {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
