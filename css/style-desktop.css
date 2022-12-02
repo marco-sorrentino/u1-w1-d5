@@ -55,7 +55,12 @@ button {
 
 .row {
   display: flex;
-  text-align: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.blockarticle {
+  padding-left: 60px;
 }
 
 .articles {
@@ -68,13 +73,11 @@ button {
   font-size: 1rem;
   margin-bottom: 20px;
   text-align: start;
-  margin-left: 300px;
 }
 
 .underblutitleparagraph {
   font-size: 0.8rem;
   text-align: start;
-  margin-left: 300px;
 }
 
 #imgsection {
