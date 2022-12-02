@@ -1,10 +1,7 @@
-/* Your styles here */
-
 /* GENERAL RULES */
 
 body {
   font-family: "Open Sans", sans-serif;
-  width: 100%;
   font-size: 1.2rem;
   color: #393d41;
 }
@@ -14,12 +11,11 @@ body {
 header {
   width: 100%;
   background-color: black;
-  text-align: center;
 }
 
 #logo {
   width: 6em;
-  padding: 20px 0px;
+  padding: 20px 0px 20px 30px;
 }
 
 /*MAIN*/
@@ -32,7 +28,7 @@ header {
   max-width: 100%;
   height: auto;
   text-align: center;
-  padding: 45px 20px;
+  padding: 105px 20px;
 }
 
 h1 {
@@ -46,10 +42,6 @@ h1 {
   line-height: 1.65;
 }
 
-.secondcard {
-  padding: 0 30px;
-}
-
 button {
   background: #ec5234;
   border-radius: 6px;
@@ -61,23 +53,39 @@ button {
 
 /*SECTION 1*/
 
-.articles {
+.row {
+  display: flex;
   text-align: center;
+}
+
+.articles {
   margin-top: 35px;
-  padding: 0px 30px;
 }
 
 .blutitle {
   color: #2fb6db;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 20px;
+  text-align: start;
+  margin-left: 300px;
+}
+
+.underblutitleparagraph {
+  font-size: 0.8rem;
+  text-align: start;
+  margin-left: 300px;
 }
 
 #imgsection {
-  width: 70%;
+  width: 60%;
   border-radius: 180px;
-  margin-top: 50px;
+  margin-top: 60px;
+}
+
+.row {
+  display: flex;
+  text-align: right;
 }
 
 /*RED SECTION*/
@@ -86,7 +94,7 @@ button {
   background-color: #e12e16;
   margin-top: 40px;
   text-align: center;
-  padding: 30px 30px;
+  padding: 60px 30px;
   color: white;
 }
 
@@ -114,10 +122,10 @@ button {
 /*CARDS*/
 
 .cards {
-  width: 90%;
+  width: 25%;
   text-align: center;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 70px;
   border: 1px solid rgba(179, 179, 179, 0.295);
   border-radius: 5px;
 }
@@ -134,7 +142,12 @@ button {
 
 .subtitlecards {
   margin-bottom: 30px;
-  line-height: 1.65;
+  line-height: 1.35;
+  font-size: 1.1rem;
+}
+
+.container {
+  display: flex;
 }
 
 /*FOOTER*/
